@@ -3,7 +3,7 @@ namespace PluginCompany\ContactFormsIntegration\Observer;
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 
-class SaveCsv implements ObserverInterface
+class FormSubmissionHandler implements ObserverInterface
 {
 
     public function execute(Observer $observer)
